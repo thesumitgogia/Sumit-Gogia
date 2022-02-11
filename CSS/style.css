@@ -1,0 +1,11 @@
+.profile-img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.content > i{
+    font-size: 40px;
+    padding: 10px;
+}
+
