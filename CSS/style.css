@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+* {
+    user-select: none;
+    font-family: Poppins;
+}
+
+body {
+    /* background-image: url(https://i.pinimg.com/564x/e9/38/8e/e9388e38f428fcd7ef424420f1322f89.jpg); */
+    /* background-image: url(https://i.pinimg.com/564x/d8/43/08/d84308ec5d14aa59c293d80d431fe116.jpg); */
+    background-image: url(https://i.pinimg.com/564x/f9/b8/97/f9b897d4c355c6172a582546e34ec3e3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.about-me {
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.img-thumbnail {
+    background-color: rgba(255, 0, 0, 0);
+    border: none;
+    border-radius: 8%;
+    padding: 0;
+}
+
+.my-skills>ul,
+.my-skills>ul>li {
+    display: inline;
+    text-transform: uppercase;
+}
+
+.my-projects>.row {
+    margin: 2px;
+}
+
+.my-projects>.row>.col {
+    margin: 10px;
+}
+
+.my-projects>.row>.col>img:hover {
+    background-color: red;
+}
+
+.project-desc {
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.headings {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.headings:hover {
+    background: rgba(255, 255, 255, 0.356);
+    text-decoration: underline;
+}
+
+.project-link {
+    text-decoration: none;
+}
+
+
+.navbar-brand{
+    font-family:Gloria Hallelujah ;
+}
